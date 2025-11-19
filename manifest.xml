@@ -7,31 +7,22 @@
   <!-- QCOM HALS -->
   <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
   <project path="hardware/qcom-caf/sm8650/audio/agm" name="hardware_qcom-caf-sm8650-audio-agm" groups="qcom,lanai-audio" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
   <project path="hardware/qcom-caf/sm8650/audio/pal" name="hardware_qcom-caf-sm8650-audio-pal" groups="qcom,lanai-audio" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" />
   <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom-caf-sm8650-audio-primary-hal" groups="qcom,lanai-audio" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="hardware/qcom-caf/sm8650/audio/graphservices" />
   <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="hardware/qcom-caf/sm8650/display" />
   <project path="hardware/qcom-caf/sm8650/display" name="hardware_qcom-caf-sm8650-display" groups="qcom" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="vendor_qcom_opensource_audio-hal_st-hal-ar-legacy" groups="qcom,lanai-audio" revision="lineage-23.0" remote="zarakinyu" />
- 
   <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
   <project path="hardware/qcom-caf/sm8650/dataipa" name="hardware_qcom-caf-sm8650-dataipa" groups="qcom" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
   <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="hardware_qcom-caf-sm8650-data-ipa-cfg-mgr" groups="qcom" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
   <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr-sm8650" groups="qcom,lanai-vendor" revision="lineage-23.0" remote="zarakinyu" />
-
   <remove-project path="hardware/lineage/interfaces" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" revision="lineage-23.0" remote="zarakinyu" />
 
