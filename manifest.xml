@@ -4,6 +4,7 @@
            fetch="https://github.com/realzarakinyu"
            revision="lineage-23.0" />
 
+  <!-- QCOM HALS -->
   <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
   <project path="hardware/qcom-caf/sm8650/audio/agm" name="hardware_qcom-caf-sm8650-audio-agm" groups="qcom,lanai-audio" revision="lineage-23.0" remote="zarakinyu" />
 
@@ -33,5 +34,12 @@
 
   <remove-project path="hardware/lineage/interfaces" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" revision="lineage-23.0" remote="zarakinyu" />
+
+  <!-- Device Trees By @realzarakinyu -->
+  <project path="device/xiaomi/warm" name="android_device_xiaomi_warm" revision="lineage-23.0" remote="zarakinyu" />
+  <project path="device/xiaomi/sm4635-common" name="android_device_xiaomi_sm4635-common" revision="lineage-23.0" remote="zarakinyu" />
+  <project path="vendor/xiaomi/sm4635-common" name="android_vendor_xiaomi_sm4635-common" revision="lineage-23.0" remote="zarakinyu" />
+  <project path="vendor/xiaomi/warm" name="android_vendor_xiaomi_warm" revision="lineage-23.0" remote="zarakinyu" />
+  <project path="device/xiaomi/warm-kernel" name="android_hardware_lineage_interfaces" revision="lineage-23.0" remote="zarakinyu" />
 
 </manifest>
